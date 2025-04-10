@@ -1,4 +1,4 @@
-// config.js
+bot// config.js
 const fs = require("fs");
 require("dotenv").config();
 
