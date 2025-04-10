@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "CRISS-AI-YJQz3RBI#I-dyof2-OzJFitvbpmTJrClxUXQ06wUSMTMoWPPe9gM",
+  SESSION_ID: process.env.SESSION_ID || "CRISS-AI-VFgT1bDQ#jA-bc6HqsyhL-LvUF7wDHqBERcShllQBXBXWRtpp360",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
