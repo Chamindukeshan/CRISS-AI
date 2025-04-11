@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Your Session Id",
+  SESSION_ID: process.env.SESSION_ID || "CRISS-AI-ZMIXjKDA#srnLetiug0MsXgKdF-kx12sBtPCkR5FfWh114vuvz2w",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -23,7 +23,7 @@ const config = {
   ANTI_DELETE: process.env.ANTI_DELETE !== undefined ? process.env.ANTI_DELETE === 'true' : true,
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "12345678901",
   AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚', // For liking status updates(stories)
-  REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
+  REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : true, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : false,
   MODE: process.env.MODE || "public",
   BOT_NAME: process.env.BOT_NAME || "𝗖𝗥𝗜𝗦𝗦 𝗔𝗜",
