@@ -3,7 +3,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
-import {
+import {k
     makeWASocket,
     Browsers,
     fetchLatestBaileysVersion,
